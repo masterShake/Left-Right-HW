@@ -1,22 +1,195 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!-- iDangerous swiper CSS -->
+		<link rel="stylesheet" href="css/swiper.min.css">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+		<style>
+			
+			/*------------------------
+					  swipers
+			  ------------------------*/
+			.swiper-container{
+				height: 100px;
+				width: 100%;
+				background-color: grey;
+				margin-bottom: 1rem;
+			}
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+			/* Small devices (landscape phones, 576px and up) */
+			@media (min-width: 576px) { }
+
+			/* Medium devices (tablets, 768px and up) */
+			@media (min-width: 768px) { 
+
+				/* swipers */
+				.swiper-container{
+					height: 242px;
+				}
+				/* plates */
+				#swiper-plates{
+					height: 400px;
+				}
+				/* flatware */
+				#swiper-flatware{
+					height: 500px;
+				}
+				/* glasses and linens */
+				#col-glass-linen{
+					padding-left: 0;
+				}
+			}
+
+			/* Large devices (desktops, 992px and up) */
+			@media (min-width: 992px) {
+
+				/* plates */
+				#swiper-plates{
+					height: 500px;
+				}
+				/* flatware */
+				#col-flatware{
+					padding-left: 0;
+				}
+			}
+
+			/* Extra large devices (large desktops, 1200px and up) */
+			@media (min-width: 1200px) { }
+
+
+		</style>
+
+		<title>Homeware - comparison shop and save!</title>
+	</head>
+	<body>
+		
+		<!-- header -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+
+		<!-- swipers -->
+		<section class="container">
+			<h2 class="text-center">Build My Essential Set</h2>
+			<h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+			<div class="row">
+				<div class="col-lg-6 col-xl-5">
+					<!-- plates -->
+					<div class="swiper-container" id="swiper-plates">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide">Slide 1</div>
+					        <div class="swiper-slide">Slide 2</div>
+					        <div class="swiper-slide">Slide 3</div>
+					    </div>
+					    <div class="swiper-pagination"></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 col-xl-4" id="col-flatware">
+					<!-- flatware -->
+					<div class="swiper-container" id="swiper-flatware">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide">Slide 1</div>
+					        <div class="swiper-slide">Slide 2</div>
+					        <div class="swiper-slide">Slide 3</div>
+					    </div>
+					    <div class="swiper-pagination"></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3" id="col-glass-linen">
+					<!-- glasses -->
+					<div class="swiper-container">Glasses</div>
+					<!-- linens -->
+					<div class="swiper-container" id="swiper-linens">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide">Slide 1</div>
+					        <div class="swiper-slide">Slide 2</div>
+					        <div class="swiper-slide">Slide 3</div>
+					    </div>
+					    <div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<!-- iDangerous swiper JS -->
+		<script src="js/swiper.min.js"></script>
+		<script>
+
+			// init plates swiper 
+			var plates = new Swiper (
+					document.getElementById('swiper-plates'), 
+					{
+					    direction: 'horizontal',
+					    loop: true,
+					    pagination: {
+					      el: '.swiper-pagination',
+					    }
+			  		})
+
+			// init linens swiper 
+			var flatware = new Swiper (
+					document.getElementById('swiper-flatware'), 
+					{
+					    direction: 'horizontal',
+					    loop: true,
+					    pagination: {
+					      el: '.swiper-pagination',
+					    }
+			  		})
+
+			// init linens swiper 
+			var linens= new Swiper (
+					document.getElementById('swiper-linens'), 
+					{
+					    direction: 'horizontal',
+					    loop: true,
+					    pagination: {
+					      el: '.swiper-pagination',
+					    }
+			  		})
+		</script>
+	</body>
 </html>
