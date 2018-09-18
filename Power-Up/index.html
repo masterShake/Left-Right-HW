@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- swiper css -->
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<style>
+
+			/*----------------------
+				  images swiper
+			  ----------------------*/
+			#swiper-images{
+				height: 100vh;
+				width: 100vw;
+				position: absolute;
+			}
+			#swiper-images .swiper-slide{
+				background-size: cover;
+				background-position: center center;
+			}
+			#img-0{
+				background-image: url('index-web-resources/image/Screen_Shot_2018-08-20_at_2.24.54_PM.png');
+			}
+			#img-1{
+				background-image: url('index-web-resources/image/Screen_Shot_2018-08-20_at_2.31.30_PM.png');
+			}
+
+			/*----------------------
+				   text swiper
+			  ----------------------*/
+			#swiper-text{
+				height: 100vh;
+				width: 100vw;
+				position: absolute;
+			}
+			.swiper-button-next,
+			.swiper-button-prev{
+				top: inherit;
+				bottom: 20px;
+				transform: rotateZ(90deg);
+				right: 1rem;
+			}
+			.swiper-button-prev{
+				left: inherit;
+				bottom: 60px;
+			}
+			.swiper-slide>.container{
+				position: relative;
+				display: table-cell;
+				vertical-align: middle;
+				height: 100vh;
+			}
+			.card{
+				background: rgba(255,255,255,.88);
+				/*position: absolute;
+				bottom: 25px;*/
+				margin: auto;
+				width: calc(100% - 32px);
+			}
+			.dropcap{
+				font-size: 2.5rem;
+			}
+			.italic{
+				font-style: italic;
+			}
+
+
+		</style>
+
+		<title>Fraud Magazine Article</title>
+	</head>
+	<body>
+		<!-- images swiper -->
+		<div class="swiper-container" id="swiper-images">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" id="img-0"></div>
+		        <div class="swiper-slide" id="img-1"></div>
+		        <div class="swiper-slide" id="img-2"></div>
+		    </div>
+		</div>
+		<!-- text swiper -->
+		<div class="swiper-container" id="swiper-text">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" id="text-0">
+		        	<div class="container">
+			        	<div class="card">
+			        		<div class="card-body">
+			        			<h4 class="card-title">Fraud fighters power up at the 29th Annual ACFE Global Fraud Conference</h4>
+			        			<h6 class="card-subtitle mb-2 text-muted">By Emily Primeaux, CFE, and ACFE staff</h6>
+			        			<h6 class="card-subtitle mb-2 text-muted">Photos by Victor Goodpasture/ProDigital</h6>
+			        			<p class="card-text">More than 3,000 anti-fraud professionals gather at the largest anti-fraud conference in the world to power up their knowledge, networks and careers.</p>
+			        		</div>
+			        	</div>
+			        </div>
+		        </div>
+		        <div class="swiper-slide" id="text-1">
+		        	<div class="container">
+			        	<div class="card">
+			        		<div class="card-body">
+			        			<p class="card-text"><span class="dropcap">W</span>hat does the future look like for anti-fraud professionals? ACFE President and CEO Bruce Dorris, J.D., CFE, CPA, highlighted three trends that we can expect to see over the next few years and into the next decade at the <em class="italic">29</em><sup>th</sup><em class="italic"> Annual ACFE Global Fraud Conference</em>, June 18-22, in Las Vegas. The first was technology.</p>
+			        		</div>
+			        	</div>
+			        </div>
+			   	</div>
+		        <div class="swiper-slide" id="text-2">
+		        	<div class="container">
+			        	<div class="card">
+			        		<div class="card-body">
+			        			<p class="card-text">“The way in which we learn today is far different and much faster than ever before,” said Dorris. “I can vividly recall what this meant to me 25 years ago when I was in law school. I remember studying in a musty, old, dark library in Baton Rouge, Louisiana. I reviewed handwritten notes and books to study for my exams; two things that may seem archaic to us now. And when I worked in the financial industry years ago, you had to call into your broker to buy and sell a stock. Now, you can make a trade directly from your phone.”</p>
+			        		</div>
+			        	</div>
+			        </div>
+		        </div>
+		        <div class="swiper-slide" id="text-3">
+		        	<div class="container">
+			        	<div class="card">
+			        		<div class="card-body">
+			        			<p class="card-text">Dorris focused on emerging technologies that represent both risks and opportunities in the fight against fraud. In particular, there’s been a remarkable surge in public interest and investment in virtual currencies such as bitcoin. Dorris explained that developments like these don’t just provide new opportunities for fraudsters. Governments and businesses around the world are moving to capitalize on the fraud-fighting potential of blockchain technology. It promises to help detect and prevent payment fraud, securities fraud, fraud in the supply chain and identity theft. Likewise, artificial intelligence and machine learning are rapidly becoming indispensable tools for detecting suspicious transactions, enhancing cybersecurity measures, and streamlining fraud examinations.</p>
+			        			<p class="collapse card-text" id="collapse-3">The second trend Dorris highlighted was data. “Data is becoming an increasingly valuable commodity for businesses and fraudsters alike, making information a priority in the fight against fraud,” he said. “While there are plenty of fraudsters casting wide nets for small pay-offs, many are changing tactics to leverage information into more targeted attacks with higher payoffs.”</p>
+		        				<a class="card-link" data-toggle="collapse" href="#collapse-3" role="button" aria-expanded="false" aria-controls="collapseExample">
+								    show more
+								</a>
+			        		</div>
+			        	</div>
+			        </div>
+		        </div>
+		        <div class="swiper-slide" id="text-4">
+		        	<div class="container">
+			        	<div class="card">
+			        		<div class="card-body">
+			        			<p class="card-text">Dorris told attendees that they have two roles to play with this data. They’re both the gatekeepers and the miners. “It will be up to you to remain vigilant in the protection of data and also the valuable use that this information provides,” he said.</p>
+			        			<p class="collapse card-text" id="collapse-4">Finally, Dorris highlighted the third trend: collaboration. “From fusion centers and cybertech accords to cooperative, formalized agreements between regulators, law enforcement and prosecutors, we have already seen the value that working together has in a battle where the enemy often seems one step ahead,” he said. “In fact, collaboration might be the reason why you are at this event. Whether you are here for the first or 20<sup class="superscript">th</sup> time, you know that coming here will put you in contact with people from all over the world. ... Don’t be afraid to break down barriers of communication and information-sharing so that, together, we can become stronger.”</p>
+			        			<a class="card-link" data-toggle="collapse" href="#collapse-4" role="button" aria-expanded="false" aria-controls="collapseExample">
+								    show more
+								</a>
+			        		</div>
+			        	</div>
+			        </div>
+		        </div>
+		        <div class="swiper-slide" id="text-5">
+		        	<div class="container">
+			        	<div class="card">
+			        		<div class="card-body">
+			        			<p class="card-text">It’s collaboration that brought fraud fighters from around the world together in Las Vegas to power up their skills, networks and careers.</p>
+			        		</div>
+			        	</div>
+			        </div>
+		        </div>
+		        <!-- next img -->
+		        <div class="swiper-slide" id="text-6">
+		        	<div class="container">
+			        	<div class="card">
+			        		<div class="card-body">
+			        			<p class="card-text"></p>
+			        		</div>
+			        	</div>
+			        </div>
+		        </div>
+
+
+
+
+		        <div class="swiper-slide" id="text-">
+		        	<div class="container">
+			        	<div class="card">
+			        		<div class="card-body">
+			        			<p class="card-text"></p>
+			        		</div>
+			        	</div>
+			        </div>
+		        </div>
+		    </div>
+		    <div class="swiper-pagination"></div>
+		    <div class="swiper-button-prev"></div>
+		    <div class="swiper-button-next"></div>
+		    <!-- <div class="swiper-scrollbar"></div> -->
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+
+		<!-- swiper js -->
+		<script src="js/swiper.min.js"></script>
+		<script>
+
+			/*---------------------
+				   image swiper
+			  ---------------------*/
+			var imageSwiper = new Swiper (
+					document.getElementById('swiper-images'),
+					{
+						direction: 'vertical'
+					}
+				);
+
+			/* image hashmap */
+			var mapTextToImg = [
+					0,0,0,0,0,0, // first 6 text slides
+					1,1,1,1
+				]
+
+			
+			/*---------------------
+					 text swiper
+			  ---------------------*/
+
+			var textSwiper = new Swiper (
+					document.getElementById('swiper-text'), 
+					{
+					    // Optional parameters
+					    direction: 'vertical',
+					    mousewheel: {
+						    forceToAxis: true,
+						    releaseOnEdges: true,
+						    sensitivity: 1,
+						    invert: true
+						},
+						preventClicks: true,
+
+					    // If we need pagination
+					    pagination: {
+					      el: '.swiper-pagination',
+					    },
+
+					    // Navigation arrows
+					    navigation: {
+					      nextEl: '.swiper-button-next',
+					      prevEl: '.swiper-button-prev',
+					    },
+
+					    // And if we need scrollbar
+					    // scrollbar: {
+					    //   el: '.swiper-scrollbar',
+					    // }
+					}
+				)
+
+				textSwiper.on('slideChange', function () { // console.log(this)
+				  	imageSwiper.slideTo(mapTextToImg[this.snapIndex])
+				});
+
+		</script>
+	</body>
+</html>

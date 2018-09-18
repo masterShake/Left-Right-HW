@@ -1,0 +1,264 @@
+body{
+    margin: 0px;
+}
+
+p.body_text_first_para{
+    border-top: 2px solid #9a9a9a;
+	padding-top: 2em;
+	
+}
+
+.sidebar_body{
+	margin-top: 0px;
+}
+
+article{
+    max-width: 800px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: 'Bitter', serif;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+advertisement{
+    max-width: 800px;
+    margin-right: -50%;
+    font-family: 'Bitter', serif;
+	padding-top: 4%;
+	padding-bottom: 12%;
+	padding-left: 0%;
+	padding-right: 0%;
+    font-size: 1.1em;
+    line-height: 1.7em;
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+a:link {
+    color:#b00931; 
+    text-decoration:none;
+}
+
+a:visited {
+    color:#b00931; 
+    text-decoration:none;
+}
+
+.captions {
+    font-family: 'Lato', sans-serif;
+}
+
+.dropcap {
+  font-weight: 700;
+  float: left;
+  font-size: 100px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+h2{
+    font-size: 1.8em;
+}
+
+img{
+    max-width: 100%;
+}
+
+.headline{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    margin-top: 2%;
+}
+
+.subhead {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    margin-top: -2%;
+}
+
+.byline {
+    font-family: 'Lato', sans-serif;
+}
+
+.kicker {
+    font-size: 1.1em;
+    border-top: 2px solid #9a9a9a;
+    padding-top: 1em;
+}
+
+.graphlead{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.7em;
+    line-height: 1.35em;
+    padding-top: 15px;
+    margin-bottom: 0.2em;
+}
+
+.sidebar{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #2a2e3b;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+.highlight{
+    background-color:#fece11;
+}
+
+.subgraphlead{
+    font-size: 1.2em;
+    color: black;
+}
+
+#sidebarlead{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 1%;
+    color:#e4e726;
+    font-family: 'Oswald', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.7em;
+    line-height: 1.5em;
+}
+
+#sidebar{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.pullquote{
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-size:1.7em;
+    color:dimgray;
+    border-bottom: solid #b00931;
+}
+
+.authorbio{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    color: gray;
+    border-top: 2px solid #9a9a9a;    
+    padding-top: 1em;
+}
+
+.department_name{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: gray;
+    border-bottom: 2px solid #9a9a9a;    
+    padding-bottom: 1em;
+}
+
+#sources{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.7em;
+    color: gray;
+}
+
+
+#headerDiv  {
+    max-width: 800px;
+    padding-top: 1.0em;
+    padding-bottom: 1.4em;
+   
+}
+
+#contentDiv {
+    max-width: 800px;
+}
+
+
+#titleText {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 1%;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 4%;
+    margin-right: auto;
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+#titleText a:link {
+    color: black;
+}
+
+#moreText {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 1%;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 4%;
+    margin-right: auto;
+    margin-bottom: 0.2em;
+    font-size: 0.9em;
+    line-height: 90%;
+    color: #b00931;
+}
+
+#headerDiv {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color:lightgray;
+}
+
+#contentDiv {
+    border-style: solid;
+    border-width: 0px 0px 0px 7px;
+    border-color:#b00931;
+    margin-left: 2%;
+    margin-top: 0%;
+    color: gray;
+    font-family: 'Lato', sans-serif;
+}
+
+#myContent,#myContent2,#myContent3,#myContent4 {
+margin: 0px 10px;
+}
+
+.footer-bar {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 40px);
+    overflow: auto;
+    padding: 15px 20px;
+      -webkit-box-shadow: 10px 0 5px -1px #888;
+          box-shadow: 10px 0 5px -1px #888;
+}
+
+a:link.previous-button, a:link.next-button {
+    color: #0084ff;
+}
+
+.previous-button {
+    float: left;
+}
+.next-button {
+    float: right;
+}
